@@ -1,0 +1,39 @@
+.maze{
+  position: relative;
+  background-color: #f3f1ec;
+  width: 706px;
+  height:237px;
+  margin:0 auto;
+}
+.walls{
+  position: absolute;
+  background-color: #e1d4ae;
+}
+.thinwalls{
+  position: absolute;
+  background-color: #e4dfcf;
+}
+.person{
+  top: 50%;
+  left: 50%;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  background-color: red;
+}
+.entrance, .finish {
+background: url('/arrow.png') 50% 50% no-repeat;
+position: absolute;
+}
+.entrance{
+  top: 216px;
+  left: 326px;
+  height: 23px;
+  width: 16px;
+}
+.finish{
+  top: 0;
+  left: 519px;
+  height: 23px;
+  width: 20px;
+}
