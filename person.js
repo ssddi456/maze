@@ -23,10 +23,10 @@ define([
     var deltax = 0.4 * this.maxspeed;
     var deltay = deltax;
 
-    if( keybroad.haspressed('d') || keybroad.haspressed('left') ){
+    if( keybroad.haspressed('d') || keybroad.haspressed('right') ){
       this.t_speed.x += deltax;
     }
-    if( keybroad.haspressed('a') || keybroad.haspressed('right') ){
+    if( keybroad.haspressed('a') || keybroad.haspressed('left') ){
       this.t_speed.x += -1 * deltax;
     }
     if( keybroad.haspressed('s') || keybroad.haspressed('down') ){
