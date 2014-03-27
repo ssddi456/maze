@@ -33,9 +33,11 @@ require([
   collider_triggers.addTriggers({
     success : function(e, person, collider ){
       alert('yes u out');
+      timer.pause();
     },
     entrance: function(e, person, collider ){
       alert('you want to go back?');
+      timer.pause();
     }
   });
 
