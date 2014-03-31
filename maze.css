@@ -17,24 +17,31 @@
 .person{
   top: 50%;
   left: 50%;
-  height: 5px;
-  width: 5px;
+  height: 10px;
+  width: 10px;
   position: absolute;
-  background-color: red;
+}
+.head{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  z-index: 1;
 }
 .entrance, .finish {
 background: url('./arrow.png') 50% 50% no-repeat;
 position: absolute;
 }
 .entrance{
-  top: 216px;
+  top: 220px;
   left: 326px;
-  height: 23px;
+  height: 19px;
   width: 16px;
 }
 .finish{
   top: 0;
   left: 519px;
-  height: 23px;
+  height: 19px;
   width: 20px;
 }

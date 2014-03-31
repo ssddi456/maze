@@ -10,10 +10,10 @@ define([
     ],
     ncolliders : [
       ['entrance','entrance'],
-      ['finish',  'success' ],
+      ['finish',  'success' ]
     ],
     init : function() {
         
     }
-  }
+  };
 });

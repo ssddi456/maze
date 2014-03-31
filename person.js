@@ -10,12 +10,15 @@ define([
   $
 ){
   var person    = new engine();
-  person.el     = $('.person');
+  person.el     = $('.head');
   person.is_mario = true;
-  person.pos    = collider_util.getpos( person.el );
+  person.pos    = collider_util.getpos( $('.person') );
   person.prepos = $.extend({},person.pos);
   person.move   = function() {
-    this.el.css(this.pos);
+    this.el.css({
+      top  : this.pos.top  - 5,
+      left : this.pos.left - 5
+    });
   };
   person.loseEnergy  =
   person.onCollusion = function(){};
