@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="maze.css">
+  </head>
+  <body>
+    <div class="maze">
+      <div class="person"></div>
+      <img class="head" src="./head.png">
+
+      <div class="entrance"></div>
+      <div class="finish"></div>
+
+
+      <div class="walls" style="  top   : 19px;  left  : 10px;  width : 509px;  height: 3px;"></div>
+      <div class="walls" style="  top   : 216px;  left  : 10px;  width : 316px;  height: 3px;"></div>
+      <div class="walls" style="  top   : 216px;  left  : 343px;  width : 333px;  height: 3px;"></div>
+      <div class="walls" style="  top   : 19px;  left  : 537px;  width : 139px;  height: 3px;"></div>
+      <div class="walls" style="  top   : 22px;  left  : 673px;  width : 3px;  height: 195px;"></div>
+      <div class="walls" style="  top   : 22px;  left  : 10px;  width : 3px;  height: 195px;"></div>
+      <div class="walls" style="  top   : 0px;  left  : 517px;  width : 2px;  height: 21px;"></div>
+      <div class="walls" style="  top   : 216px;  left  : 342px;  width : 2px;  height: 21px;"></div>
+    </div>
+    <script>
+      var require ={
+        paths : {
+          gamelibs   : '../pool_mario/imps',
+          jquery     : 'http://cdn.staticfile.org/jquery/1.11.0/jquery',
+          'es5-shim' : 'http://rawgithub.com/es-shims/es5-shim/master/es5-shim'
+        },
+        deps : ['maze.random']
+      };
+    </script>
+    <script src="http://cdn.staticfile.org/require.js/2.1.11/require.min.js"></script>
+  </body>
+</html>
